@@ -1,4 +1,4 @@
-# Correlation between several cosmological quantities using machine learning model based on cosmological simulation data
+# Correlation between several cosmological quantities using a machine learning model based on cosmological simulation data
 
 # Yuxuan Cao, Kaile Wang, Saiyang Zhang, Joohyun Lee
 
@@ -20,6 +20,7 @@ regression(e.g. multi-variate), classification (e.g. random forest), machine lea
 
 ## Links to data
 [IllustrisTNG100-1 cosmological simulation](https://www.tng-project.org/data/downloads/TNG100-1/)
+[Reduced data on Box](https://utexas.box.com/s/5ke8msfwskzskik3c6oze9e2mlgaw37u)
 
 
 ## Data description
