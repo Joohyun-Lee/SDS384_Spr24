@@ -25,7 +25,7 @@ regression(e.g. multi-variate), classification (e.g. random forest), machine lea
 
 
 ## Description of reduced data
-- ==halodata_tng100-1_Nth.npy==<br>
+- "halodata_tng100-1_Nth.npy"<br>
 Numpy array containing halos' physical properties in the Nth snapshot. The fields of each column are listed.<br>
 SubhaloMass SubhaloMassType[0,1,4,5] SubhaloPos SubhaloVel SubhaloSpin SubhaloVmax SubhaloVmaxRad (0: Gas, 1: DM, 4: Star, 5:BH)
 - haloID_tng100-1_Nth.npy<br>
