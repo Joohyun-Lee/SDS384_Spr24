@@ -25,9 +25,9 @@ regression(e.g. multi-variate), classification (e.g. random forest), machine lea
 
 
 ## Description of reduced data
-- halodata_tng100-1_99th.npy
+- halodata_tng100-1_99th.npy<\br>
 SubhaloMass SubhaloMassType[0,1,4,5] SubhaloPos SubhaloVel SubhaloSpin SubhaloVmax SubhaloVmaxRad (0: Gas, 1: DM, 4: Star, 5:BH)
-- haloID_tng100-1_99th.npy
+- haloID_tng100-1_99th.npy<\br>
 SubhaloID NextProgenitorID FirstProgenitorID
 
 
