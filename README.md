@@ -20,7 +20,16 @@ regression(e.g. multi-variate), classification (e.g. random forest), machine lea
 
 ## Links to data
 [IllustrisTNG100-1 cosmological simulation](https://www.tng-project.org/data/downloads/TNG100-1/)
+
 [Reduced data on Box](https://utexas.box.com/s/5ke8msfwskzskik3c6oze9e2mlgaw37u)
+
+
+## Description of reduced data
+- halodata_tng100-1_99th.npy
+SubhaloMass SubhaloMassType[0,1,4,5] SubhaloPos SubhaloVel SubhaloSpin SubhaloVmax SubhaloVmaxRad (0: Gas, 1: DM, 4: Star, 5:BH)
+- haloID_tng100-1_99th.npy
+SubhaloID NextProgenitorID FirstProgenitorID
+
 
 
 ## Data description
