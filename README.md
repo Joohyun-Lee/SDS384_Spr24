@@ -23,6 +23,10 @@ regression(e.g. multi-variate), classification (e.g. random forest), machine lea
 
 [Reduced data on Box](https://utexas.box.com/s/5ke8msfwskzskik3c6oze9e2mlgaw37u)
 
+## Colab Workspace
+
+https://colab.research.google.com/drive/19lVFtTtRoalElVUE_KS4pIs0btGfIaMR?usp=sharing
+
 
 ## Description of reduced data
 - h = 0.6774, ckpc: comoving kpc (to get physical kpc, multiply by scale factor a)
@@ -39,6 +43,7 @@ Numpy array containing halos' IDs in the Nth snapshot. The fields of each column
 For a relationship between halo, and its pregenitor, one can refer to https://www.tng-project.org/data/docs/specifications/#parttype1 under section 4. In the cosmic evolution picture, the DM halo grows by eating up other halos (with tractable ID) and surrounding material (untraceable and more diffuse). The halo merger tree is basically a tree-like data structure with halo IDs on the node of the tree, having a total of n = 100 levels, the same as the total snapshot number within the data frame.  It is taking track of how the halo has grown throughout cosmic time, through merging with lighter haloes to a more massive halo we see in the present day. Here, the smaller the level(snapshot) is, which corresponses to higher redshift(earlier epoch in the universe history), the lower the hierarchy within this tree. From i+1 th to i th level, for a node on the i+1 th level, the `FirstProgenitorID` links to the main branch of its child nodes(progenitor halo ID) on the ith level. Then, `NextProgenitorID` is much less important in that it only points to the child node that belongs to the same parent within the same tree level. (More like a deep-first search algorithm to traverse over the tree structure)  
 
 Here, to simplify the problem, we only track the `FirstProgenitorID` of the most massive haloes of our selection within the snapshot 99, to track the growth of halo and SMBH within the halo.
+
 
 
 ## Data description
