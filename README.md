@@ -28,9 +28,10 @@ regression(e.g. multi-variate), classification (e.g. random forest), machine lea
 - h = 0.6774, ckpc: comoving kpc (to get physical kpc, multiply by scale factor a)
 - `halodata_tng100-1_Nth.npy` (`N*23` array, float32)<br>
 Numpy array containing halos' physical properties in the Nth snapshot. The fields of each column are listed. Quantity (Unit)<br>
-`SubhaloMass (Msun)` `SubhaloMassType[0,1,4,5] (Msun)` `SubhaloPos (3D, kpc)` `SubhaloVel (3D, km/s)` `SubhaloSpin (3D, kpc*km/s)` `SubhaloVmax (km/s)` `SubhaloVmaxRad (kpc)` `SubhaloHalfmassRadType[0,1,4] (kpc)` `SubhaloStarMetallicity` `SubhaloGasMetallicity` `SubhaloSFR (Msun/yr)` `SubhaloBHMass (Msun)`<br>
+`SubhaloMass (Msun) halodata[:, 0]` `SubhaloMassType[0,1,4,5] (Msun) halodata[:, 1:5]` `SubhaloPos (3D, kpc) halodata[:, 5:8]` `SubhaloVel (3D, km/s) halodata[:, 8:11]` `SubhaloSpin (3D, kpc*km/s) halodata[:, 11:14]` `SubhaloVmax (km/s) halodata[:, 14]` `SubhaloVmaxRad (kpc) halodata[:, 15]` `SubhaloHalfmassRadType[0,1,4] (kpc) halodata[:, 16:19]` `SubhaloStarMetallicity halodata[:, 19]` `SubhaloGasMetallicity halodata[:, 20]` `SubhaloSFR (Msun/yr) halodata[:, 21]` `SubhaloBHMass (Msun) halodata[:, 22]`<br>
 (For `SubhaloMassType`, it is an `N*4` array, with each column meaning the total mass of particle type 0: Gas, 1: DM, 4: Star, 5:BH)<br>
 (For `SubhaloHalfmassRadType`, it is an `N*3` array, with each column meaning the total mass of particle type 0: Gas, 1: DM, 4: Star)<br>
+
 - `haloID_tng100-1_Nth.npy` (`N*3` array, int64)<br>
 Numpy array containing halos' IDs in the Nth snapshot. The fields of each column are listed. Refer to the `IllustrisTNG` `SubLink` merger tree description to understand the meanings of `NextProgenitorID` and `FirstProgenitorID`.<br>
 `SubhaloID` `NextProgenitorID` `FirstProgenitorID`
