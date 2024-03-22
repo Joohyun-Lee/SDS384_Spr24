@@ -25,7 +25,7 @@ regression(e.g. multi-variate), classification (e.g. random forest), machine lea
 
 ## Colab Workspace
 
-https://colab.research.google.com/drive/19lVFtTtRoalElVUE_KS4pIs0btGfIaMR?usp=sharing
+[Saiyang's Notebook For Data Reduction](https://colab.research.google.com/drive/19lVFtTtRoalElVUE_KS4pIs0btGfIaMR?usp=sharing)
 
 
 ## Description of reduced data
