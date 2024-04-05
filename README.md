@@ -7,12 +7,12 @@
 Study the correlation between SMBH merger history and DM halo merger history, i.e. rebuild SMBH growth history from host halo merger history + their properties
 
 ### Models to be used: 
-regression(e.g. multi-variate), classification (e.g. random forest), machine learning
+regression (e.g. multi-variate), classification (e.g. random forest), machine learning
 
 ### Variables in the problem:
 #### Dependent : 
-- BH Merger rate(host halo properties, BH properties)
-- BH Merger mass ratio(host halo properties, BH properties)
+- BH Merger rate (host halo properties, BH properties)
+- BH Merger mass ratio (host halo properties, BH properties)
 #### Independent: 
 - Host halo properties: host merger rate, host merger mass ratio, mass, spin, central density, maximum rotation velocity, …
 - BH properties: chirp mass, spin angle, mass, velocity, …
